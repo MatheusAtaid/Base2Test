@@ -12,9 +12,6 @@ public class Main {
 
         System.out.println("Iniciando testes automatizados da Base 2: ");
 
-        //String opcao = args[2];
-
-        int sum=0;
         int cont = 0;
         JUnitCore jUnitCore = new JUnitCore();
         Result result ;
