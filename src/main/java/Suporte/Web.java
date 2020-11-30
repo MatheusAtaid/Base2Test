@@ -23,8 +23,8 @@ public class Web {
 		System.setProperty("webdriver.chrome.driver",file.getAbsolutePath());
 		ChromeOptions options = new ChromeOptions();
 		//
-		options.addArguments("--headless");
-		options.addArguments("window-size=1980,1080");
+		options.addArguments("--headless"); //Caso queira visualizar o teste em interface, desabilitar essa opcao
+		//options.addArguments("window-size=1980,1080");
 		options.addArguments("--allow-insecure-localhost");
 		options.addArguments("--ignore-certificate-errors");
 		options.addArguments("disable-infobars");
@@ -39,7 +39,7 @@ public class Web {
 		return driver;
 	}
 
-	public static WebDriver creteBrowserStack() throws MalformedURLException {
+	public static WebDriver creteBrowserStack() throws MalformedURLException { //Caso queiramos executar os testes em nuvem ao inves de em nossa maquina
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("browser", "Chrome");
 		caps.setCapability("browser_version", "79.0");
@@ -50,7 +50,7 @@ public class Web {
 		WebDriver driver = null;
 		try{
 			driver =  new RemoteWebDriver(new URL(URL), caps);
-			driver.get("http://test-server-1.emotiondigital.com.br:9092");
+			driver.get("http://mantis-prova.base2.com.br");
 		}
 		catch (MalformedURLException e){
 			System.out.println("Url com problema :"+e.getMessage());
