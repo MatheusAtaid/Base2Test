@@ -1,6 +1,6 @@
 # Base2Test
 
-Foi desenvolvido um projeto de testes automatizados utilizando Selenium Web Driver, JUnit 4, Java, Easy Test para desenvolver alguns testes automatizados para o desafio do processo seletivo da Base 2.
+Foi desenvolvido um projeto de testes automatizados utilizando Selenium Web Driver, JUnit 4, Java, Easy Test para desenvolver alguns testes automatizados para o desafio do processo seletivo da Base 2. Foi utilizado no projeto uma estrutura conhecida no mundo dos testes automatizados chamada de PageObject que com intuito de aumentar o reuso dos metodos e baixa acoplação entre o codigo permite que usemos o mesmo metodo para varios testes diferentes e que cada metodo tenha relação com uma pagina(classe) especifica do site que esta sendo desenvolvido os testes automatizados. 
 
 Tudo que necessita de atenção para ser executado em outras maquinas está comentado no codigo, como diretorio na qual esta instalada a instancia do chromedriver para executar o Selenium, arquivos de teste e csv usados durante execução de alguns testes. 
 
