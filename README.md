@@ -7,3 +7,4 @@ Tudo que necessita de atenção para ser executado em outras maquinas está come
 Meu nome é Matheus Guerra Ataide
 
 É indicado que o codigo seja executado rodando a classe "Main" que ja esta configurada com algumas bibliotecas do jUnitCore que possui varios modulos de testes feitos por mim, mas também é possivel executar cada modulo de teste desenvolvido atraves de cada respectiva classe de teste JUnit. 
+Esse é um projeto que utiliza as dependencias Maven, com isso muita atenção no arquivo "pom.xml" e talvez seja necessario tornar o projeto Maven. Caso existam duvidas fiquem a vontade para me comunicar atraves do numero 31 988890900
